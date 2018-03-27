@@ -1,2 +1,17 @@
 #beeswax vis
 #https://bl.ocks.org/mbostock/6526445e2b44303eebf21da3b6627320
+
+#https://www.quantopian.com/posts/hurst-exponent
+/*
+
+"Tom Starke
+Sep 17, 2013
+
+Hi Seong,
+
+I am not a specialist in statistical models but I found that, while the Hurst has some relevance in determining the nature of self-correlation in a time series (i.e. trend: future return are positively correlated with past returns) it is by itself not very reliable. I build this little neural network tool which uses the Hurst and Sharpe ratio to identify the different domains more effectively (https://www.leinenbock.com/training-a-simple-neural-network-to-recognise-different-regimes-in-financial-time-series/). I had much better results with it than with the Hurst alone. The tricky bit is the training of the network. In my example I produce randomly generated time series for which I know whether they are mean reverting, trending or random. Initially, I train with very 'obvious' data sets and then move to more subtle ones. It does a good job in picking them up and I found it a good one to use especially for micro-trends.
+My choice of Hurst and Sharpe for this job is because Hurst seems better with mean reversion than trends while Sharpe obviously does trends well. Since putting this on my site I've much improved this by using a third indicator but this is not ready yet.
+Play around with it some time. It's good fun actually."
+
+*/
+
