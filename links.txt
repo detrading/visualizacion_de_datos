@@ -15,3 +15,6 @@ Play around with it some time. It's good fun actually."
 
 */
 
+#https://en.wikipedia.org/wiki/Fractal_dimension
+
+
